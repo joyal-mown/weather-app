@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-body{
+    background: rgb(0,255,248);
+    background: linear-gradient(131deg, rgba(0,255,248,1) 0%, rgba(70,129,164,1) 100%);
+    border-radius: 20px;
+    width: 300px;
+}
+
+.search-bar{
+    width: 80%;
+    height: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.search-bar input{
+    width: 75%;
+    height: 30px;
+    border: none;
+    color: black;
+    padding: 0 10px;
+    font-weight: bold;
+    background: white;
+    outline: none;
+    box-shadow: 0 0 5px whitesmoke;
+    border-radius: 20px;
+}
+
+.search-bar button{
+    width: 35px;
+    height: 30px;
+    border: none;
+    object-fit: cover;
+    background: white;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    border-radius: 20px
+}
+
+.search-bar button:hover , input:hover{
+    box-shadow: 0 0 10px rgb(140, 140, 140);
+}
+
+.search-bar img{
+    width: 50%;
+    background-size: cover;
+    height: 10px;
+}
+
+.weather-bar{
+    text-align: center;
+}
+
+.weather-bar img{
+    height: 200px;
+}
+
+.extras{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+
+.extras div{
+    align-items: center;
+    width: 40%;
+    display: flex;
+}
+
+.extras img{
+    width: 30px;
+}
+
+.extras p{
+    margin: 0 10px;
+    font-weight: bold;
+}
